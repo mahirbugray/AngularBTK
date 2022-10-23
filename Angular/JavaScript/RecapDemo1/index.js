@@ -24,4 +24,4 @@ var kullanicilar = [
     }
   }
   
-  giris(email,sifre)
+  giris(email,sifre)  

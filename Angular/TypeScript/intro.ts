@@ -22,3 +22,6 @@ function selamVer(isim: string) {
   let sayilar2: Array<number> = [1, 2, 3];
   
   let dizi:[number,string]=[2,"Ankara"];
+  
+  enum Renk {Kirmizi=1,Siyah,Mavi}
+  let renk : Renk = Renk.Kirmizi;

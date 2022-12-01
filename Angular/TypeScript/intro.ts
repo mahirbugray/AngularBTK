@@ -46,3 +46,5 @@ let yas: number;
 yas = 10;
 
 class Musteri {}
+
+export {};

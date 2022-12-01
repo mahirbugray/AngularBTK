@@ -35,3 +35,4 @@ function davetEt(ilkDavetli: string, ...digerleri: string[]): string {
 }
 
 console.log(davetEt("Mahir", "Murat", "Tunahan"));
+export {};

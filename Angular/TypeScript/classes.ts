@@ -52,3 +52,4 @@ musteri.satisYap();
 let personel = new Personel();
 personel.kaydet();
 personel.maasOde();
+export {};

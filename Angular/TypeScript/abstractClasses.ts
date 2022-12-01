@@ -41,3 +41,4 @@ let kredi: KrediBase;
 kredi = new TuketiciKredi();
 
 kredi = new MortgageKredi();
+export {};

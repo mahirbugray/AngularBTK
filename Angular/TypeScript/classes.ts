@@ -17,7 +17,15 @@ ev.yemekYe();
 console.log(ev._kat);
 
 class Kisi {
-  public isim:string;
+  private _isim: string;
+
+  get isim(): string {
+    return "Sayın : " + this._isim;
+  }
+
+  set isim(ad: string) {
+    this._isim = ad;
+  }
   kaydet() {
     console.log("Kişi kaydedildi");
   }
@@ -36,6 +44,8 @@ class Personel extends Kisi {
 }
 
 let musteri = new Musteri();
+musteri.isim = "Mahir";
+console.log(musteri.isim);
 musteri.kaydet();
 musteri.satisYap();
 

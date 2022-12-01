@@ -1,5 +1,5 @@
 class Ev {
-  _odaSayisi: number;
+  private _odaSayisi: number;
   _pencereSayisi: number;
   _kat: number;
   constructor(odaSayisi: number, pencereSayisi: number, kat: number) {
@@ -17,6 +17,7 @@ ev.yemekYe();
 console.log(ev._kat);
 
 class Kisi {
+  public isim:string;
   kaydet() {
     console.log("Kişi kaydedildi");
   }
